@@ -150,13 +150,6 @@ h3 {
   top: 31px;
 }
 
-.last__line {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  width: 97%;
-}
-
 /*coeur*/
 .fill {
   color: black;
@@ -211,7 +204,6 @@ h3 {
   box-shadow: 0 10px 5px gray;
 }
 
-/*coeur*/
 /*footer*/
 footer {
   background-color: #353535;
@@ -238,3 +230,55 @@ footer a {
 }
 
 /*# sourceMappingURL=styles.css.map */
+@media (max-width: 767px) {
+  h1 {
+    width: 88%;
+  }
+
+  section i {
+    bottom: 36px;
+    left: 84%;
+  }
+
+  .titreMenu {
+    width: 9%;
+  }
+
+  article {
+    padding-left: 28px;
+    width: 75%;
+    margin-left: 9%;
+    height: 85px;
+  }
+
+  h3 {
+    font-size: 16px;
+    margin-top: 0;
+  }
+  p {
+    margin-top: 7px;
+    margin-bottom: 5px;
+  }
+  .description {
+    height: 83px;
+  }
+
+  .meals:hover .fa-check-circle {
+    left: 24px;
+  }
+
+  .cross {
+    height: 95px;
+  }
+  .bouton {
+    width: 56%;
+  }
+
+  footer {
+    height: 300px;
+  }
+
+  footer h3 {
+    padding-top: 60px;
+  }
+}
