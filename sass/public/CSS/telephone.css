@@ -1,0 +1,132 @@
+/*logo*/
+@media (max-width: 600px) {
+  body {
+    width: 100%;
+  }
+
+  .logo {
+    margin-bottom: 15px;
+  }
+
+  /*nav*/
+  nav h2 {
+    margin-left: 65px;
+  }
+
+  .presentation {
+    padding: 0;
+    margin-left: 39px;
+  }
+
+  /*bouton*/
+  .bouton {
+    width: 50%;
+  }
+
+  /*fonctionnement*/
+  #fonctionnement {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+
+  .titreFonction {
+    margin: 53px 0 0 21px;
+  }
+
+  nav ol {
+    margin-top: 20px;
+  }
+
+  .espaceFonction {
+    width: 100%;
+    height: 65px;
+    border-radius: 22px;
+  }
+
+  .positionFonction {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 24px;
+    margin-top: 11px;
+  }
+
+  /*restaurants*/
+  .cartesRestaurants {
+    width: 94%;
+    padding-bottom: 74px;
+  }
+
+  .titreRestaurants {
+    width: 50%;
+  }
+
+  .restaurantsListe {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .cartesBody {
+    margin-left: 10px;
+    width: 93%;
+    height: 100%;
+    transition: none;
+  }
+  .cartesBody:hover {
+    transform: none;
+  }
+
+  .texteImage {
+    top: 16%;
+  }
+
+  .imagesPlats {
+    height: 175px;
+  }
+
+  /*footer*/
+  .footerTitre {
+    padding: 0;
+    margin-left: 25px;
+  }
+
+  footer ul {
+    padding: 0;
+    margin-left: 25px;
+  }
+}
+@media (max-width: 491px) {
+  /*nav*/
+  nav h2 {
+    width: 67%;
+  }
+
+  /*fonctionnement*/
+  .espaceFonction {
+    width: 311px;
+    margin-right: 0;
+  }
+
+  /*restaurants*/
+  .cartesRestaurants {
+    padding-left: 18px;
+    width: 95%;
+  }
+
+  .texteImage {
+    left: 85%;
+    width: 23%;
+  }
+
+  .iconeCoeur {
+    left: 91%;
+  }
+
+  /*footer*/
+  footer {
+    width: 101%;
+  }
+}
+
+/*# sourceMappingURL=telephone.css.map */

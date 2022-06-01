@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+/*texte font-family: 'Roboto', sans-serif;*/
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+/*font-family: 'Shrikhand', cursive;*/
+@import "Utilis/variable.scss";
+
+body {
+  width: 100%;
+  height: 2475px;
+  margin: 0;
+}
+
+/*header*/
+.logo {
+  width: 260px;
+}
+.logo-position {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+header i {
+  font-size: 40px;
+  color: black;
+  position: absolute;
+  top: 6%;
+  margin-left: 15px;
+}
+
+/*img*/
+.imagePlat {
+  box-shadow: 6px -5px 10px gray;
+  object-fit: cover;
+  height: 545px;
+  width: 100%;
+}
+
+/*section menu*/
+section {
+  position: relative;
+  bottom: 103px;
+  background-color: #f6f6f6;
+  padding-top: 20px;
+  border-radius: 113px 113px 0 0;
+  padding-bottom: 50px;
+  i {
+    position: relative;
+    bottom: 44px;
+    left: 81%;
+    font-size: 35px;
+  }
+}
+
+h1 {
+  font-family: $font-cursive;
+  margin: 0;
+  margin-top: 30px;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+}
+
+.titreMenu {
+  font-family: "Roboto", sans-serif;
+  border-bottom: solid #99e2d0;
+  font-size: 20px;
+  margin-left: 11%;
+  margin-top: 57px;
+  padding-bottom: 10px;
+  width: 3%;
+  margin-bottom: 27px;
+}
+
+article {
+  border-radius: 20px;
+  border: solid #99e2d000 5px;
+  box-shadow: 3px -5px 10px gray, -7px 8px 10px gray;
+  width: 73%;
+  height: 94px;
+  margin-left: 11%;
+  padding-left: 50px;
+  margin-bottom: 26px;
+  background-color: #ffffff;
+  cursor: pointer;
+  p {
+    font-family: "Roboto", sans-serif;
+  }
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  margin-top: 10px;
+  margin-bottom: 6px;
+}
+
+.meals {
+  position: relative;
+  cursor: pointer;
+  transition: 450ms ease-in-out;
+  &:hover .cross {
+    opacity: 1;
+    transform: translate(-50px);
+  }
+  &:hover .fa-check-circle {
+    transform: rotate(360deg);
+    position: absolute;
+    bottom: 36px;
+    left: 29%;
+  }
+  &:hover {
+    padding-right: 70px;
+  }
+}
+
+.cross {
+  background-color: $color-tertiary;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 104px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  position: absolute;
+  right: 10%;
+  top: 0;
+  opacity: 0;
+  box-shadow: 3px -5px 10px gray, 5px 3px 10px gray;
+  transition: transform 330ms ease-in-out;
+  .fa-check-circle {
+    color: #fff;
+    transition: transform 500ms ease-in-out;
+  }
+}
+
+.last__line {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  width: 97%;
+}
+
+/*coeur*/
+.fill {
+  color: black;
+  cursor: pointer;
+  &:hover {
+    animation: fill 0.3s ease-in-out;
+    display: inline-block;
+    opacity: 1;
+    background: linear-gradient(
+      to left,
+      #9356dc,
+      #b35cdc,
+      #cf64dc,
+      #e86edb,
+      #ff79da
+    );
+    background: -webkit-linear-gradient(
+      to left,
+      #9356dc,
+      #b35cdc,
+      #cf64dc,
+      #e86edb,
+      #ff79da
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+  }
+}
+/*bouton*/
+.boutonForme {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.bouton {
+  background-image: linear-gradient(#ff79da, #9356dc);
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  color: white;
+  border-radius: 50px;
+  border: none;
+  box-shadow: 0 5px 10px gray;
+  width: 27%;
+  height: 80px;
+  cursor: pointer;
+  &:hover {
+    opacity: 85%;
+    box-shadow: 0 10px 5px gray;
+  }
+}
+
+/*coeur*/
+
+/*footer*/
+
+footer {
+  background-color: #353535;
+  margin-top: -129px;
+  height: 198px;
+  h3 {
+    padding-top: 30px;
+    padding-left: 26px;
+    font-family: $font-cursive;
+    font-size: 30px;
+    color: white;
+  }
+  ul {
+    font-family: "Roboto", sans-serif;
+    list-style-type: none;
+    color: white;
+    padding-left: 26px;
+    cursor: pointer;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
