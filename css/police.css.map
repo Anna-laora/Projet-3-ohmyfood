@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,OAAO,CAAC,4EAAI;AACZ,4CAA4C;AAC5C,OAAO,CAAC,sEAAI;AACZ,sCAAsC;AACtC,AAAA,CAAC,CAAC;EACA,WAAW,EAAE,oBAAoB;EACjC,SAAS,EAAE,IAAI;CAChB;;AAED,AAAA,EAAE,CAAC;EACD,WAAW,EAAE,oBAAoB;EACjC,UAAU,EAAE,IAAI;EAChB,WAAW,EAAE,IAAI;CAClB;;AAED,AAAA,EAAE,CAAC;EACD,WAAW,EAAE,oBAAoB;CAClC",
+    "sources": [
+        "police.scss"
+    ],
+    "names": [],
+    "file": "police.css"
+}

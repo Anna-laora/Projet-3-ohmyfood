@@ -1,0 +1,42 @@
+/*nav*/
+.couleurFond {
+  background-color: #f6f6f6;
+  padding-bottom: 59px;
+  width: 100%;
+}
+
+.localisationIcone {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  background-color: #eaeaea;
+  box-shadow: 0px 0px 0px, 0px -5px 5px #888;
+  cursor: pointer;
+}
+
+.icone {
+  margin-right: 10px;
+}
+
+.presentation {
+  margin-left: 30px;
+}
+
+@media (max-width: 600px) {
+  /*nav*/
+  nav h2 {
+    margin-left: 65px;
+  }
+  .presentation {
+    padding: 0;
+    margin-left: 39px;
+  }
+}
+
+@media (max-width: 491px) {
+  /*nav*/
+  nav h2 {
+    width: 67%;
+  }
+}
+/*# sourceMappingURL=navigation.css.map */
