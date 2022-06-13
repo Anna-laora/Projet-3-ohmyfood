@@ -1,3 +1,21 @@
+@keyframes heart {
+  20% {
+    transform: rotate(15deg);
+  }
+  40% {
+    transform: rotate(-10deg);
+  }
+  60% {
+    transform: rotate(5deg);
+  }
+  80% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
 /*animation coeur*/
 .iconeContenant {
   position: relative;
@@ -23,6 +41,7 @@
   animation: fill 0.3s ease-in-out;
   display: inline-block;
   opacity: 1;
+  animation: heart 1s ease-in-out infinite;
   background: linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
   background: -webkit-linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
   -webkit-background-clip: text;

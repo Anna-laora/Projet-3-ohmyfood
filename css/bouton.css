@@ -5,7 +5,7 @@
   margin-top: 45px;
 }
 
-.boutonForme .bouton {
+.bouton {
   background-image: linear-gradient(#ff79da, #9356dc);
   font-family: "Roboto", sans-serif;
   color: white;
@@ -18,15 +18,8 @@
   font-size: 20px;
 }
 
-.boutonForme .bouton:hover {
+.bouton :hover {
   opacity: 85%;
   box-shadow: 0 10px 5px gray;
-}
-
-@media (max-width: 600px) {
-  /*bouton*/
-  .bouton {
-    width: 50%;
-  }
 }
 /*# sourceMappingURL=bouton.css.map */

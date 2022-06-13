@@ -1,0 +1,71 @@
+@media (max-width: 900px) and (min-width: 600px) {
+  body {
+    width: 100%;
+  }
+  /*restaurants*/
+  .cartesRestaurants {
+    width: 95%;
+  }
+  .cartesBody {
+    transition: none;
+  }
+  .cartes2 {
+    margin-right: 15px;
+  }
+  .cartesBody:hover {
+    transform: none;
+  }
+  .texteImage {
+    top: 11%;
+    left: 82%;
+    width: 35%;
+  }
+  .iconeCoeur {
+    left: 92%;
+  }
+}
+
+@media (max-width: 600px) {
+  /*restaurants*/
+  .cartesRestaurants {
+    width: 94%;
+    padding-bottom: 74px;
+  }
+  .titreRestaurants {
+    width: 50%;
+  }
+  .restaurantsListe {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .cartesBody {
+    margin-left: 10px;
+    width: 93%;
+    height: 100%;
+    transition: none;
+  }
+  .cartesBody:hover {
+    transform: none;
+  }
+  .texteImage {
+    top: 16%;
+  }
+  .imagesPlats {
+    height: 175px;
+  }
+}
+
+@media (max-width: 491px) {
+  /*restaurants*/
+  .cartesRestaurants {
+    padding-left: 18px;
+    width: 95%;
+  }
+  .texteImage {
+    left: 85%;
+    width: 23%;
+  }
+  .iconeCoeur {
+    left: 91%;
+  }
+}

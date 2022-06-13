@@ -1,0 +1,54 @@
+@media (max-width: 767px) {
+  h1 {
+    width: 88%;
+  }
+  section {
+    border-radius: 45px 45px 0 0;
+    padding-bottom: 56px;
+  }
+  section i {
+    bottom: 36px;
+    left: 84%;
+  }
+  .titreMenu {
+    width: 9%;
+  }
+  article {
+    padding-left: 28px;
+    width: 75%;
+    margin-left: 9%;
+    height: 85px;
+  }
+  h3 {
+    font-size: 16px;
+    margin-top: 0;
+  }
+  p {
+    margin-top: 7px;
+    margin-bottom: 5px;
+  }
+  .meals .description {
+    height: 83px;
+  }
+  .meals .description p {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 195px;
+    white-space: nowrap;
+  }
+  .meals:hover .fa-check-circle {
+    left: 17px;
+  }
+  .fa-check-circle:hover {
+    left: 24px;
+  }
+  .cross {
+    height: 95px;
+    width: 77px;
+    margin-right: -5px;
+  }
+  .bouton {
+    width: 56%;
+  }
+}
+/*# sourceMappingURL=telephoneMenu.css.map */

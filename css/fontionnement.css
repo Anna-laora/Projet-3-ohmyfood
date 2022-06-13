@@ -1,0 +1,43 @@
+#fonctionnement {
+  display: flex;
+  flex-direction: row;
+  font-family: "Roboto", sans-serif;
+  margin-top: 23px;
+}
+
+.espaceFonction {
+  display: flex;
+  flex-direction: row;
+  background-color: #f6f6f6;
+  margin: 32px;
+  padding: 16px;
+  box-shadow: 4px 4px 2px lightgrey;
+  border-radius: 95px;
+  align-items: center;
+  width: 231px;
+  font-family: "Roboto", sans-serif;
+  margin-left: 50px;
+  height: 24px;
+  cursor: pointer;
+}
+.espaceFonction i {
+  margin-right: 14px;
+  margin-bottom: 2px;
+}
+.espaceFonction:hover {
+  background: #e4d5f6;
+}
+.nombres {
+  border-radius: 50%;
+  background-color: #9356dc;
+  color: white;
+  position: relative;
+  right: 28px;
+  padding: 7px 11px;
+}
+
+.nombres p {
+  position: relative;
+  bottom: 1px;
+  margin: 0;
+}

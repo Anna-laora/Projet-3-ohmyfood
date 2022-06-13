@@ -1,0 +1,29 @@
+/*footer*/
+footer {
+  background-color: #353535;
+  margin-top: -100px;
+  height: 196px;
+  padding-top: 61px;
+}
+
+footer h3 {
+  padding-top: 30px;
+  padding-left: 26px;
+  font-family: "Shrikhand", cursive;
+  font-size: 30px;
+  color: white;
+}
+
+footer ul {
+  font-family: "Roboto", sans-serif;
+  list-style-type: none;
+  color: white;
+  padding-left: 26px;
+  cursor: pointer;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+/*# sourceMappingURL=footerMenu.css.map */

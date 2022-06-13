@@ -32,30 +32,4 @@ footer li {
 footer a {
   color: white;
 }
-
-@media (max-width: 900px) and (min-width: 600px) {
-  /*footer*/
-  footer {
-    width: 100%;
-  }
-}
-
-@media (max-width: 600px) {
-  /*footer*/
-  .footerTitre {
-    padding: 0;
-    margin-left: 25px;
-  }
-  footer ul {
-    padding: 0;
-    margin-left: 25px;
-  }
-}
-
-@media (max-width: 491px) {
-  /*footer*/
-  footer {
-    width: 101%;
-  }
-}
 /*# sourceMappingURL=footer.css.map */
