@@ -1,18 +1,10 @@
 @keyframes heart {
-  20% {
-    transform: rotate(15deg);
+  0% {
+    filter: brightness(0);
   }
-  40% {
-    transform: rotate(-10deg);
-  }
-  60% {
-    transform: rotate(5deg);
-  }
-  80% {
-    transform: rotate(-5deg);
-  }
+
   100% {
-    transform: rotate(0deg);
+    filter: brightness(1);
   }
 }
 
@@ -38,26 +30,10 @@
   cursor: pointer;
 
   &:hover {
-    animation: fill 0.3s ease-in-out;
     display: inline-block;
     opacity: 1;
-    animation: heart 1s ease-in-out infinite;
-    background: linear-gradient(
-      to left,
-      #9356dc,
-      #b35cdc,
-      #cf64dc,
-      #e86edb,
-      #ff79da
-    );
-    background: -webkit-linear-gradient(
-      to left,
-      #9356dc,
-      #b35cdc,
-      #cf64dc,
-      #e86edb,
-      #ff79da
-    );
+    animation: heart 550ms ease-in-out;
+    background: linear-gradient(to left, #9356dc, #ff79da);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;

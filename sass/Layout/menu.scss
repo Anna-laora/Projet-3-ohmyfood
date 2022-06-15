@@ -101,12 +101,12 @@ h3 {
 .meals article:last-child {
   align-items: flex-end;
 }
-.meals:hover .cross {
+.meals:focus .cross {
   opacity: 1;
   transform: translate(0px);
   margin-left: 25px;
 
-  :hover .fa-check-circle {
+  &:active .fa-check-circle {
     transform: rotate(360deg);
     position: absolute;
     bottom: 36px;

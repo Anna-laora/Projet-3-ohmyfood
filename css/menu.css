@@ -110,7 +110,7 @@ h3 {
   margin-left: 25px;
 }
 
-.meals:hover .cross :hover .fa-check-circle {
+.meals:hover .fa-check-circle {
   transform: rotate(360deg);
   position: absolute;
   bottom: 36px;
