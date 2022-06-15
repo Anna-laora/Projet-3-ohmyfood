@@ -40,15 +40,18 @@
     font-size: 15px;
     margin-top: 21px;
   }
-  .meals:hover .fa-check-circle {
-    left: 15px;
+  .meals:active .fa-check-circle {
+    transform: rotate(360deg);
+    left: 19px;
     top: 35px;
     font-size: 28px;
   }
-  .meals:hover .cross {
+  .meals:active .cross {
     margin-left: 15px;
+    opacity: 1;
+    animation-delay: 10ms;
+    animation-fill-mode: backwards;
   }
-
   .cross {
     height: 100px;
     width: 77px;
