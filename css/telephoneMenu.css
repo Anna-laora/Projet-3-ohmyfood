@@ -40,13 +40,13 @@
     font-size: 15px;
     margin-top: 21px;
   }
-  .meals:active .fa-check-circle {
+  .meals:hover .fa-check-circle {
     transform: rotate(360deg);
     left: 19px;
     top: 35px;
     font-size: 28px;
   }
-  .meals:active .cross {
+  .meals:hover .cross {
     margin-left: 15px;
     opacity: 1;
     animation-delay: 10ms;

@@ -18,7 +18,7 @@
   font-size: 15px;
 }
 
-.bouton :hover {
+.bouton:hover {
   opacity: 85%;
   box-shadow: 0 10px 5px gray;
 }
