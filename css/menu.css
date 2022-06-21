@@ -9,6 +9,28 @@
   }
 }
 
+@-webkit-keyframes anim-menu-choice-checked {
+  0% {
+    -webkit-transform: translateX(10px) rotate(0deg);
+    transform: translateX(10px) rotate(0deg);
+  }
+  100% {
+    -webkit-transform: translateX(0px) rotate(360deg);
+    transform: translateX(0px) rotate(360deg);
+  }
+}
+
+@keyframes anim-menu-choice-checked {
+  0% {
+    -webkit-transform: translateX(10px) rotate(0deg);
+    transform: translateX(10px) rotate(0deg);
+  }
+  100% {
+    -webkit-transform: translateX(0px) rotate(360deg);
+    transform: translateX(0px) rotate(360deg);
+  }
+}
+
 /*img*/
 .imagePlat {
   box-shadow: 6px -5px 10px gray;
@@ -90,53 +112,64 @@ h3 {
   display: flex;
   align-items: flex-end;
 }
-
-.description {
-  width: 90%;
+.meals .cross {
+  /* animation permettant de faire un effet de slide sur la croix */
+  -webkit-transition: width 600ms cubic-bezier(0.1, 0.8, 0.2, 1);
+  transition: width 600ms cubic-bezier(0.1, 0.8, 0.2, 1);
+  background-color: #99e2d0;
+  /* par défaut la width est à 0 pour la cacher*/
+  width: 0;
+  /* on applique display flex pour que la croix s'aligne verticalement */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: -5px;
+  padding: 2px;
+  /* on définit un hauteur à 100px pour qu'elle soit de la même taille que la ligne */
+  height: 100px;
 }
 
-.meals article > span,
-.meals article div {
-  display: block;
-}
-
-.meals article:last-child {
-  align-items: flex-end;
+/* permet de faire apparaître l'élément au survol de la souris  */
+.meals:hover .cross {
+  width: 100px;
 }
 
 .meals:hover .cross {
   opacity: 1;
   transform: translate(0px);
-  margin-left: 25px;
 }
 
 .meals:hover .fa-check-circle {
   transform: rotate(360deg);
   position: absolute;
-  bottom: 36px;
-  left: 32px;
+  top: 36px;
+  left: 33px;
+  font-size: 30px;
+}
+
+.description {
+  width: 90%;
 }
 
 .cross {
   background-color: #99e2d0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 102px;
-  height: 104px;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  top: 0;
   opacity: 0;
-  margin-bottom: -5px;
-  margin-right: -50px;
-  box-shadow: 3px -5px 10px gray, 5px 3px 10px gray;
 }
 
 .cross .fa-check-circle {
   color: #fff;
   transition: transform 500ms ease-in-out;
-  top: 31px;
   left: 34px;
 }
-/*# sourceMappingURL=menu.css.map */

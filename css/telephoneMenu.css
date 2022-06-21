@@ -18,7 +18,7 @@
     padding-left: 10px;
     width: 85%;
     margin-left: 25px;
-    height: 90px;
+    height: 94px;
   }
   h3 {
     font-size: 16px;
@@ -42,7 +42,7 @@
   }
   .meals:hover .fa-check-circle {
     transform: rotate(360deg);
-    left: 19px;
+    left: 30px;
     top: 35px;
     font-size: 28px;
   }
@@ -61,4 +61,9 @@
     width: 56%;
   }
 }
-/*# sourceMappingURL=telephoneMenu.css.map */
+
+@media (max-width: 401px) {
+  .meals:hover .fa-check-circle {
+    left: 28%;
+  }
+} /*# sourceMappingURL=telephoneMenu.css.map */
