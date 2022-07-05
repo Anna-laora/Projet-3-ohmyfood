@@ -2,14 +2,16 @@
 footer {
   background-color: #353535;
   margin-top: -131px;
-  height: 210px;
+  height: 202px;
 
   h3 {
+    margin-top: 17px;
     padding-top: 30px;
     padding-left: 26px;
     font-family: "Shrikhand", cursive;
-    font-size: 30px;
+    font-size: 21px;
     color: white;
+    font-weight: 100;
   }
 
   ul {
@@ -23,5 +25,8 @@ footer {
   a {
     color: white;
     text-decoration: none;
+  }
+  li {
+    margin-bottom: 10px;
   }
 }

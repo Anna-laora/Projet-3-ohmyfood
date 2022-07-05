@@ -64,27 +64,30 @@ h1 {
   display: flex;
   justify-content: center;
 }
-
+.fill__heart {
+  height: 43px;
+}
 .titreMenu {
   font-family: "Roboto", sans-serif;
   border-bottom: solid #99e2d0;
-  font-size: 20px;
+  font-size: 17px;
   margin-left: 11%;
-  margin-top: 57px;
+  margin-top: 40px;
   padding-bottom: 10px;
   width: 3%;
-  margin-bottom: 27px;
+  margin-bottom: 16px;
 }
 
 article {
   border-radius: 20px;
   border: solid rgba(153, 226, 208, 0) 5px;
-  box-shadow: 3px -5px 10px gray, -7px 8px 10px gray;
+  box-shadow: 4px 4px 16px rgb(0 0 0 / 10%);
+  width: 73%;
   width: 73%;
   height: 94px;
   margin-left: 11%;
   padding-left: 50px;
-  margin-bottom: 26px;
+  margin-bottom: 12px;
   background-color: #ffffff;
   cursor: pointer;
 
@@ -94,6 +97,7 @@ article {
 }
 h3 {
   font-family: "Roboto", sans-serif;
+  font-weight: 900;
 }
 
 .price {
@@ -179,6 +183,6 @@ h3 {
   .fa-check-circle {
     color: #fff;
     transition: transform 500ms ease-in-out;
-    left: 34px;
+    left: 17px;
   }
 }

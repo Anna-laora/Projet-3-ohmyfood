@@ -21,7 +21,7 @@
     padding-left: 10px;
     width: 85%;
     margin-left: 25px;
-    height: 94px;
+    height: 65px;
   }
 
   h3 {
@@ -36,14 +36,13 @@
   }
   .meals {
     .description {
-      height: 83px;
+      height: 68px;
       p {
         text-overflow: ellipsis;
         overflow: hidden;
         width: 195px;
         white-space: nowrap;
         font-size: 15px;
-        margin-top: 21px;
       }
     }
   }
@@ -63,5 +62,6 @@
   }
   .bouton {
     width: 56%;
+    height: 53px;
   }
 }
