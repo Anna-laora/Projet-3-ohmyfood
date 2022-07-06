@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,MAAM,EAAE,SAAS,EAAE,KAAK;EACtB,OAAO;EACP,AAAA,GAAG,CAAC,EAAE,CAAC;IACL,WAAW,EAAE,IAAI;GAClB;EACD,AAAA,aAAa,CAAC;IACZ,OAAO,EAAE,CAAC;IACV,WAAW,EAAE,IAAI;GAClB;;;AAGH,MAAM,EAAE,SAAS,EAAE,KAAK;EACtB,OAAO;EACP,AAAA,GAAG,CAAC,EAAE,CAAC;IACL,KAAK,EAAE,GAAG;GACX",
-    "sources": [
-        "telephoneNavigation.scss"
-    ],
-    "names": [],
-    "file": "telephoneNavigation.css"
-}
