@@ -47,8 +47,8 @@
     }
   }
   .meals:hover .fa-check-circle {
-    left: 30px;
-    top: 35px;
+    left: 14px;
+    top: 24px;
     font-size: 28px;
   }
   .fa-check-circle:hover {
@@ -63,5 +63,9 @@
   .bouton {
     width: 56%;
     height: 53px;
+  }
+
+  .meals .cross {
+    height: 71px;
   }
 }
